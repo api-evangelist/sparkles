@@ -1,8 +1,31 @@
 aid: sparkles
 name: Sparkles
-description: Sparkles is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Sparkles (sparkles.dev) is a San Francisco developer-tools startup in Y
+  Combinator's Winter 2026 batch building AI coding agents for a whole team, not
+  just engineers. A technical owner connects the company's GitHub repositories
+  and configures environment variables, after which any teammate on a company
+  email address can describe a change and have an agent implement it inside an
+  isolated sandbox and open a GitHub pull request for developer review. Positioned
+  as "Lovable for existing projects," it lets marketers, designers, and operations
+  staff ship safe code changes without needing to know Git or the command line.
+  As of this profile Sparkles exposes only a marketing and product website plus
+  legal pages; it publishes no public API, developer portal, SDKs, CLI, or
+  OpenAPI, so this record captures verified company identity rather than an API
+  surface.
 url: https://raw.githubusercontent.com/api-evangelist/sparkles/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://sparkles.dev/icon.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +34,42 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Developer Tools
+- AI Agents
+- Coding Agents
+- GitHub
+- Software Development
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/sparkles-domain-security.yml
+- type: Website
+  url: https://sparkles.dev/
+- type: GitHubOrganization
+  url: https://github.com/sparklesdotdev
+- type: Pricing
+  url: https://sparkles.dev/#pricing
+- type: Support
+  url: https://sparkles.dev/support
+- type: TermsOfService
+  url: https://sparkles.dev/terms
+- type: PrivacyPolicy
+  url: https://sparkles.dev/privacy
+- type: X
+  url: https://x.com/Sparklesdotdev
+- type: LinkedIn
+  url: https://www.linkedin.com/company/sparkles-dev
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
